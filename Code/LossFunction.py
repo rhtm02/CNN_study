@@ -1,0 +1,1 @@
+# this module is LossFunction configuration script

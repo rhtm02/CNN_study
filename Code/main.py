@@ -1,5 +1,7 @@
 # this file is main file
 
+# set hyperparameters
+epoch = 4
 
 
 
