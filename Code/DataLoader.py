@@ -5,7 +5,7 @@ import torchvision
 import torchvision.transforms as transforms
 
 
-def Loaddata(BatchSize = 4):
+def LoadData(BatchSize = 100):
     transform = transforms.Compose([transforms.ToTensor(),transforms.Normalize(([0.5]), ([0.5]))])
 
     trainset = torchvision.datasets.FashionMNIST(root = '../Data/fashion_MNIST/', train = True, download = True, transform = transform)
@@ -19,8 +19,8 @@ def Loaddata(BatchSize = 4):
 
 if ( __name__ == "__main__"):
     print("LoadData Module")
-    Loaddata()
 
 else:
-    print("LOADING Fashion-MNIST DATA")
+    pass
+    #print("LOADING Fashion-MNIST DATA")
 
